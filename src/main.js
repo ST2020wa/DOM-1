@@ -20,6 +20,7 @@ dom.text(test)
 dom.style(test, {border:'1px solid red', color: 'blue'})
 console.log(dom.style(test, 'border'))
 dom.style(test, 'border', '1px solid black')
+console.log(dom.style(test, 'border', '1px solid black'))
 
 dom.class.add(test, 'red')
 dom.class.add(test, 'blue')

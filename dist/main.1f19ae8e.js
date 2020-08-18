@@ -137,6 +137,7 @@ dom.style(test, {
 });
 console.log(dom.style(test, 'border'));
 dom.style(test, 'border', '1px solid black');
+console.log(dom.style(test, 'border', '1px solid black'));
 dom.class.add(test, 'red');
 dom.class.add(test, 'blue');
 dom.class.remove(test, 'blue');
@@ -190,7 +191,7 @@ var parent = module.bundle.parent;
 if ((!parent || !parent.isParcelRequire) && typeof WebSocket !== 'undefined') {
   var hostname = "" || location.hostname;
   var protocol = location.protocol === 'https:' ? 'wss' : 'ws';
-  var ws = new WebSocket(protocol + '://' + hostname + ':' + "50914" + '/');
+  var ws = new WebSocket(protocol + '://' + hostname + ':' + "53141" + '/');
 
   ws.onmessage = function (event) {
     checkedAssets = {};

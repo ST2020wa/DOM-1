@@ -185,7 +185,7 @@ window.dom = {
   },
   style: function style(node, name, value) {
     if (arguments.length === 3) {
-      // dom.style(div. 'color', 'red')
+      // dom.style(div, 'color', 'red')
       node.style[name] = value;
     } else if (arguments.length === 2) {
       if (typeof name === 'string') {
